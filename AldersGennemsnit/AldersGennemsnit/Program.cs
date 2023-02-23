@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography.X509Certificates;
+﻿using System.Linq.Expressions;
+using System.Security.Cryptography.X509Certificates;
 
 namespace AldersGennemsnit
 {
@@ -56,14 +57,13 @@ namespace AldersGennemsnit
             }
             Console.WriteLine(name);
             */
-            
-            
-            
+
+            /* Øvelse 3.4: Bestemt antal personer
             int x = 0;
             int y = 0;
             Console.WriteLine("hvor mange er i gruppen?: ");
             x = int.Parse(Console.ReadLine());
-            
+
             int[] alder = new int[x];
 
             for (int i = 0;i < alder.Length; i++)             
@@ -78,9 +78,63 @@ namespace AldersGennemsnit
                 Console.WriteLine("gruppemedlemmets alder er: " + alder[i]);
 
             }
+            */
 
+            /* Øvelse 3.4.1: try-catch
+            int x = 0;
+            int y = 0;
+            Console.WriteLine("hvor mange er i gruppen?: ");
+           
+            try 
+            {
+                x = int.Parse(Console.ReadLine());
+            } 
+            catch (FormatException) {
+                Console.WriteLine("du indtastede ikke et heltal"); 
+            }
 
+            int[] alder = new int[x];
+            for (int i = 0; i < alder.Length; i++)
+            {
+                Console.WriteLine("hvad er gruppemedlemmets alder?: ");
+                y = int.Parse(Console.ReadLine());
+                alder[i] = y;
+
+            }
+            for (int i = 0; i < alder.Length; i++)
+            {
+                Console.WriteLine("gruppemedlemmets alder er: " + alder[i]);
+
+            }
+            */
+
+            /* Øvelse 3.4.2: int.TryParse
+            int y = 0;
+            Console.WriteLine("hvor mange er i gruppen?: ");
+            string x = Console.ReadLine();
+            int antalMedlemmer;
+
+            if (!int.TryParse(x, out antalMedlemmer))
+            {
+                Console.WriteLine("Indtast venligst et heltal.");
+                return;
+            }
+
+            int[] alder = new int[antalMedlemmer];
+            for (int i = 0; i < alder.Length; i++)
+            {
+                Console.WriteLine("hvad er gruppemedlemmets alder?: ");
+                y = int.Parse(Console.ReadLine());
+                alder[i] = y;
+
+            }
+            for (int i = 0; i < alder.Length; i++)
+            {
+                Console.WriteLine("gruppemedlemmets alder er: " + alder[i]);
+
+            }
+            */
             Console.ReadLine();
-}
-}
+        }
+    }
 }
