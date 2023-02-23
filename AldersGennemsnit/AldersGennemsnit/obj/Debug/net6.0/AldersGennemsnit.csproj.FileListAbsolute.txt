@@ -1,0 +1,15 @@
+C:\Users\45217\Desktop\Datamatiker\ex6\AldersGennemsnit\AldersGennemsnit\bin\Debug\net6.0\AldersGennemsnit.exe
+C:\Users\45217\Desktop\Datamatiker\ex6\AldersGennemsnit\AldersGennemsnit\bin\Debug\net6.0\AldersGennemsnit.deps.json
+C:\Users\45217\Desktop\Datamatiker\ex6\AldersGennemsnit\AldersGennemsnit\bin\Debug\net6.0\AldersGennemsnit.runtimeconfig.json
+C:\Users\45217\Desktop\Datamatiker\ex6\AldersGennemsnit\AldersGennemsnit\bin\Debug\net6.0\AldersGennemsnit.dll
+C:\Users\45217\Desktop\Datamatiker\ex6\AldersGennemsnit\AldersGennemsnit\bin\Debug\net6.0\AldersGennemsnit.pdb
+C:\Users\45217\Desktop\Datamatiker\ex6\AldersGennemsnit\AldersGennemsnit\obj\Debug\net6.0\AldersGennemsnit.csproj.AssemblyReference.cache
+C:\Users\45217\Desktop\Datamatiker\ex6\AldersGennemsnit\AldersGennemsnit\obj\Debug\net6.0\AldersGennemsnit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\45217\Desktop\Datamatiker\ex6\AldersGennemsnit\AldersGennemsnit\obj\Debug\net6.0\AldersGennemsnit.AssemblyInfoInputs.cache
+C:\Users\45217\Desktop\Datamatiker\ex6\AldersGennemsnit\AldersGennemsnit\obj\Debug\net6.0\AldersGennemsnit.AssemblyInfo.cs
+C:\Users\45217\Desktop\Datamatiker\ex6\AldersGennemsnit\AldersGennemsnit\obj\Debug\net6.0\AldersGennemsnit.csproj.CoreCompileInputs.cache
+C:\Users\45217\Desktop\Datamatiker\ex6\AldersGennemsnit\AldersGennemsnit\obj\Debug\net6.0\AldersGennemsnit.dll
+C:\Users\45217\Desktop\Datamatiker\ex6\AldersGennemsnit\AldersGennemsnit\obj\Debug\net6.0\refint\AldersGennemsnit.dll
+C:\Users\45217\Desktop\Datamatiker\ex6\AldersGennemsnit\AldersGennemsnit\obj\Debug\net6.0\AldersGennemsnit.pdb
+C:\Users\45217\Desktop\Datamatiker\ex6\AldersGennemsnit\AldersGennemsnit\obj\Debug\net6.0\AldersGennemsnit.genruntimeconfig.cache
+C:\Users\45217\Desktop\Datamatiker\ex6\AldersGennemsnit\AldersGennemsnit\obj\Debug\net6.0\ref\AldersGennemsnit.dll
