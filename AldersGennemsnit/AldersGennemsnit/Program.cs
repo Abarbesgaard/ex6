@@ -51,9 +51,6 @@ namespace AldersGennemsnit
                 {
                     name = "sovs";
                 }
-
-
-
             }
             Console.WriteLine(name);
             */
@@ -73,6 +70,7 @@ namespace AldersGennemsnit
                 alder[i] = y;
 
             }
+
             for (int i = 0; i < alder.Length; i++)
             {
                 Console.WriteLine("gruppemedlemmets alder er: " + alder[i]);
