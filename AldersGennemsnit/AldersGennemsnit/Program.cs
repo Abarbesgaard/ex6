@@ -86,36 +86,42 @@ namespace AldersGennemsnit
             try 
             {
                 x = int.Parse(Console.ReadLine());
+                int[] alder = new int[x];
+                for (int i = 0; i < alder.Length; i++)
+                {
+                    Console.WriteLine("hvad er gruppemedlemmets alder?: ");
+                    y = int.Parse(Console.ReadLine());
+                    alder[i] = y;
+
+                }
+                for (int i = 0; i < alder.Length; i++)
+                {
+                    Console.WriteLine("gruppemedlemmets alder er: " + alder[i]);
+
+                }
             } 
             catch (FormatException) {
                 Console.WriteLine("du indtastede ikke et heltal"); 
             }
-
-            int[] alder = new int[x];
-            for (int i = 0; i < alder.Length; i++)
-            {
-                Console.WriteLine("hvad er gruppemedlemmets alder?: ");
-                y = int.Parse(Console.ReadLine());
-                alder[i] = y;
-
-            }
-            for (int i = 0; i < alder.Length; i++)
-            {
-                Console.WriteLine("gruppemedlemmets alder er: " + alder[i]);
-
-            }
             */
+
+
 
             /* Øvelse 3.4.2: int.TryParse
             int y = 0;
             Console.WriteLine("hvor mange er i gruppen?: ");
             string x = Console.ReadLine();
             int antalMedlemmer;
+            bool success = int.TryParse(x, out antalMedlemmer);
 
-            if (!int.TryParse(x, out antalMedlemmer))
+            if (success == true)
             {
                 Console.WriteLine("Indtast venligst et heltal.");
                 return;
+            }
+            else
+            {
+                Console.WriteLine("not valid");
             }
 
             int[] alder = new int[antalMedlemmer];
